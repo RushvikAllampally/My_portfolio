@@ -1,0 +1,15 @@
+div > ol,
+p {
+  color: green;
+  background: yellow;
+  font-size: x-large;
+}
+/* just using "ol" this checks for all unordered list and gives this property */
+/* but using div > ol makes the ol of only div in to given style */
+/* ol,p applies the given style to both p and ol */
+.class1 {
+  color: blue;
+  background: yellow;
+  font-size: x-large;
+}
+/* this checks all classws with class1 and applies style */
